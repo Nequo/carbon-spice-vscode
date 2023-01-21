@@ -1,0 +1,157 @@
+{
+  "name": "Carbon Spice",
+  "type": "dark",
+  "colors": {
+    "foreground": "#f4f4f4",
+    "activityBar.background": "#161616",
+    "activityBar.foreground": "#f4f4f4",
+	"titleBar.activeBackground": "#161616",
+	"quickInput.background": "#262626",
+	"quickInputList.focusBackground": "#353535",
+	"keybindingLabel.background": "#525252",
+    "activityBar.inactiveForeground": "#a8a8a8",
+    "activityBar.activeBorder": "#0f62fe",
+    "activityBar.activeBackground": "#262626",
+    "activityBar.border": "#393939",
+    "activityBarBadge.background": "#0f62fe",
+    "sideBar.background": "#161616",
+    "sideBar.border": "#262626",
+    "list.hoverBackground": "#262626",
+    "list.hoverForeground": "#f4f4f4",
+    "list.activeSelectionBackground": "#393939",
+    "list.activeSelectionForeground": "#f4f4f4",
+    "list.inactiveSelectionBackground": "#393939",
+    "list.inactiveSelectionForeground": "#f4f4f4",
+    "list.warningForeground": "#f1c21b",
+    "list.errorForeground": "#fa4d56",
+    "gitDecoration.modifiedResourceForeground": "#f1c21b",
+	"gitDecoration.deletedResourceForeground": "#fa4d56",
+	"gitDecoration.addedResourceForeground": "#42be65",
+	"peekView.border": "#0f62fe",
+	"peekViewTitle.background": "#262626",
+	"diffEditor.insertedLineBackground":"#42be6500",
+    "editorGroupHeader.tabsBackground": "#161616",
+    "editorGroupHeader.tabsBorder": "#161616",
+    "tab.activeBackground": "#262626",
+    "tab.inactiveBackground": "#393939",
+    "tab.activeBorder": "#0f62fe",
+    "tab.border": "#262626",
+    "statusBar.background": "#0f62fe",
+    "statusBar.noFolderBackground": "#0f62fe",
+    "statusBar.debuggingBackground": "#8a3ffc",
+    "button.background": "#0f62fe",
+    "button.hoverBackground": "#0353e9",
+    "extensionButton.prominentBackground": "#0f62fe",
+    "extensionButton.prominentHoverBackground": "#0353e9",
+    "inputOption.activeBorder": "#0f62fe",
+    "editor.background": "#161616",
+    "editor.foreground": "#f4f4f4",
+    "editorRuler.foreground": "#262626",
+    "editorLineNumber.foreground": "#808080",
+	"terminal.ansiBlack": "#262626",
+	"terminal.ansiBrightBlack": "#525252",
+	"terminal.ansiBlue": "#1192e8",
+	"terminal.ansiBrightBlue": "#33b1ff",
+	"terminal.ansiCyan": "#009d9a",
+	"terminal.ansiBrightCyan": "#08bdba",
+	"terminal.ansiGreen": "#24a148",
+	"terminal.ansiBrightGreen": "#42be65",
+	"terminal.ansiMagenta": "#ee5396",
+	"terminal.ansiBrightMagenta": "#ff7eb6",
+	"terminal.ansiRed": "#da1e28",
+	"terminal.ansiBrightRed": "#fa4d56",
+	"terminal.ansiYellow": "#f1c21b",
+	"terminal.ansiBrightYellow": "#ff832b",
+	"terminal.ansiWhite": "#EAEAD3",
+	"terminal.ansiBrightWhite": "#FFFFFF",
+	"terminal.foreground": "#f4f4f4",
+  },
+  "tokenColors": [
+    {
+      "name": "Cyan 40",
+      "scope": [
+        "storage",
+        "keyword",
+        "punctuation.separator",
+        "punctuation.accessor",
+        "variable.language",
+        "keyword.other.type",
+        "entity.other.attribute-name",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#33b1ff"
+      }
+    },
+    {
+      "name": "Magenta 40",
+      "scope": [
+		"constant",
+		"support.constant",
+      ],
+      "settings": {
+        "foreground": "#ff7eb6"
+      }
+    },
+    {
+      "name": "Purple 40",
+      "scope": [
+		"support",
+		"entity"
+	  ],
+      "settings": {
+        "foreground": "#be95ff"
+      }
+    },
+    {
+      "name": "Teal 40",
+      "scope": [
+		"comment",
+        "entity.name.operator",
+		"keyword.operator"
+	],
+      "settings": {
+        "foreground": "#08bdba"
+      }
+    },
+    {
+      "name": "Alert 30",
+      "scope": [
+	  ],
+      "settings": {
+        "foreground": "#f1c21b"
+      }
+    },
+    {
+      "name": "Alert 40",
+      "scope": [
+		"entity.name.function",
+		"support.function"
+	  ],
+      "settings": {
+        "foreground": "#ff832b"
+      }
+    },
+    {
+      "name": "Green 40",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#42be65"
+      }
+    },
+    {
+      "name": "Italic",
+      "scope": ["comment"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "None",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "fontStyle": ""
+      }
+    }
+  ]
+}
